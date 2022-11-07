@@ -18,7 +18,7 @@ locust -V
 
 ###### Step-4: Done! Now create your first test
 
-A Locust test is essentially a Python program. Create python program according to your requirements. I have used two endpoints /index.html and /test.html
+A Locust test is essentially a Python program. Create python program according to your requirements. [Here](https://docs.locust.io/en/stable/writing-a-locustfile.html#writing-a-locustfile) is the official documentation link to create locust file. I have used two endpoints /index.html and /test.html
 
 Put the code in a file named locustfile.py in your current directory and run :
 ```sh
