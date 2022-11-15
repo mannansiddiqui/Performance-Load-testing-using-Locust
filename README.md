@@ -63,6 +63,8 @@ Now, click on start swarming. And get the statistics, charts, failures, exceptio
 
 I had used 3 EC2 instances, one for locust master, second for locust worker and last for nginx server with two endpoints /index.html and /test.html
 
+[Here](https://docs.locust.io/en/stable/running-distributed.html#running-distributed) is the official documentation for distributed load generation.
+
 Put the code (same as used in Approach-1) in a file named locustfile.py in your current directory and run:
 
 #### From master:
